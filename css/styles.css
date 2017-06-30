@@ -43,7 +43,7 @@ p {
   padding-right: 20%;
   text-align: justify;
   font-family: Aqua;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 21px;
   color: #7a7676;
   word-wrap: normal;
@@ -53,6 +53,7 @@ p {
   display: block;
   float: left;
   padding-left: 20%;
+  margin-right: 30px;
   max-height: 150px;
 }
 
@@ -89,6 +90,14 @@ p {
   width: auto;
 }
 
+a {
+  color: #7a7676;
+}
+
+.center {
+  text-align: center;
+}
+
 ol {
   font-family: Aqua;
   font-size: 80px;
@@ -101,7 +110,7 @@ ol {
 
 .parallax1 {
     background-image: url("../img/pinkwatercolor.jpg");
-    height: 300px;
+    height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,11 +119,12 @@ ol {
 
 .col-md-4 {
   font-family: Aqua;
-  font-size: 17px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 42px;
   color: #7a7676;
   text-align: left;
   max-width: 500px;
+  padding-top: 20px;
 }
 
 .row {
@@ -126,7 +136,6 @@ ul {
 }
 
 .footer {
-  text-align: center;
   padding-top: 25px;
   background-color: #e2e9e9;
   height: 100px;
