@@ -17,7 +17,26 @@ h1 {
 h3 {
   font-family: Aqua;
   font-size: 40px;
-  color:#ffffff;
+  color:#459b03;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 20px;
+}
+
+h4 {
+  font-family: Aqua;
+  font-size: 40px;
+  color:#459b03;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 20px;
+}
+
+
+h5 {
+  font-family: Aqua;
+  font-size: 13px;
+  color: #a9adad;
   text-align: left;
   padding-left: 20%;
   padding-top: 20px;
@@ -27,9 +46,10 @@ p {
   padding-left: 20%;
   padding-right: 20%;
   text-align: justify;
-  font-family: Adequate-ExtraLight;
+  font-family: Aqua;
+  font-style: normal;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 32px;
   color: #ffffff;
   word-wrap: normal;
 }
@@ -61,6 +81,18 @@ p {
   width: auto;
 }
 
+.row-white{
+  background-color: #ffffff;
+  height: 300px;
+  width: auto;
+}
+
+.row-white2{
+  background-color: #ffffff;
+  height: 800px;
+  width: auto;
+}
+
 a {
   color: #7a7676;
 }
@@ -87,7 +119,14 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+  .parallax2 {
+      background-image: url("../img/botanical.jpg");
+      height: 180px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
 .col-md-4 {
   font-family: Aqua;
   font-size: 18px;
