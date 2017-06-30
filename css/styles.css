@@ -1,23 +1,17 @@
-@font-face { font-family: Vayentha Sans; src: url('../fonts/Vayentha Sans.otf'); }
 @font-face { font-family: Vayentha Script; src: url('../fonts/Vayentha Script.otf'); }
 @font-face { font-family: Geoma Thin Demo; src: url('../fonts/Geoma Thin Demo.otf'); }
 @font-face { font-family: Aqua; src: url('../fonts/Aqua.ttf'); }
+@font-face { font-family: Adequate-ExtraLight; src: url('../fonts/Adequate-ExtraLight.ttf'); }
+
 
 
 
 h1 {
   font-family: Vayentha Script;
-  font-size: 150px;
-  color:#c6dcff;
+  font-size: 200px;
+  color:#459b03;
   text-align: center;
   padding-top: 100px;
-}
-
-h2{
-  font-family: sans-serif;
-  font-size: 100px;
-  color:#d9d9db;
-  text-align: center;
 }
 
 h3 {
@@ -29,23 +23,14 @@ h3 {
   padding-top: 20px;
 }
 
-h4 {
-  font-family: Aqua;
-  font-size: 40px;
-  color:#d1f3ff;
-  text-align: left;
-  padding-left: 20%;
-  padding-top: 20px;
-}
-
 p {
   padding-left: 20%;
   padding-right: 20%;
   text-align: justify;
-  font-family: Aqua;
-  font-size: 16px;
-  line-height: 21px;
-  color: #7a7676;
+  font-family: Adequate-ExtraLight;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
   word-wrap: normal;
 }
 
@@ -57,12 +42,6 @@ p {
   max-height: 150px;
 }
 
-.square {
-  background-image: url("../img/pinksquare.png");
-  height: 100px;
-  width: 100px;
-}
-
 .nav {
   font-family: Geoma Thin Demo;
   font-size: 20px;
@@ -70,22 +49,14 @@ p {
   float: right;
 }
 
-.sexy_line{
-    display:block;
-    border:none;
-    color:white;
-    height:1px;
-    background:black;
-    background: -webkit-gradient(radial, 0 70%, 50, 50% 100%, 350, from(#000), to(#fff));
-}
-
 .row-teal{
-  background-color: #d1f3ff;
+  background-color: #459b03;
   height: 300px;
   width: auto;
 }
 
-.row-clear{
+.row-orange{
+  background-color: #ffbd91;
   height: 300px;
   width: auto;
 }
@@ -109,8 +80,8 @@ ol {
 }
 
 .parallax1 {
-    background-image: url("../img/pinkwatercolor.jpg");
-    height: 350px;
+    background-image: url("../img/botanical.jpg");
+    height: 200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,6 +108,6 @@ ul {
 
 .footer {
   padding-top: 25px;
-  background-color: #e2e9e9;
+  background-color: #ffbd91;
   height: 100px;
 }
