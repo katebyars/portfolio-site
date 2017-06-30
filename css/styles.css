@@ -1,0 +1,94 @@
+@font-face { font-family: Vayentha Sans; src: url('../fonts/Vayentha Sans.otf'); }
+@font-face { font-family: Vayentha Script; src: url('../fonts/Vayentha Script.otf'); }
+@font-face { font-family: Geoma Thin Demo; src: url('../fonts/Geoma Thin Demo.otf'); }
+@font-face { font-family: Aqua; src: url('../fonts/Aqua.ttf'); }
+
+
+
+h1 {
+  font-family: Vayentha Script;
+  font-size: 150px;
+  color:#ff790c;
+  text-align: center;
+  padding-top: 100px;
+}
+
+h2{
+  font-family: sans-serif;
+  font-size: 100px;
+  color:#d9d9db;
+  text-align: center;
+}
+
+h3 {
+  font-family: Aqua;
+  font-size: 40px;
+  color:#ffffff;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 20px;
+}
+
+h4 {
+  font-family: Aqua;
+  font-size: 40px;
+  color:#d1f3ff;
+  text-align: left;
+  padding-left: 20%;
+  padding-top: 20px;
+}
+
+p {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: justify;
+  font-family: Aqua;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7a7676;
+}
+
+.square {
+  background-image: url("../img/pinksquare.png");
+  height: 100px;
+  width: 100px;
+}
+
+.nav {
+  font-family: Geoma Thin Demo;
+  font-size: 20px;
+  color: #a9adad;
+  float: right;
+}
+
+.sexy_line{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 0 70%, 50, 50% 100%, 350, from(#000), to(#fff));
+}
+
+.row-teal{
+  background-color: #d1f3ff;
+  height: 300px;
+  width: auto;
+}
+
+.row-clear{
+  height: 300px;
+  width: auto;
+}
+
+
+.container-fluid{
+  padding: 0px;
+}
+
+.footer {
+  padding-left: 20%;
+  padding-top: 25px;
+  background-color: #e2e9e9;
+  height: 100px;
+}
