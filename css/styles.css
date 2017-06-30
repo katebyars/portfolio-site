@@ -1,10 +1,6 @@
 @font-face { font-family: Vayentha Script; src: url('../fonts/Vayentha Script.otf'); }
 @font-face { font-family: Geoma Thin Demo; src: url('../fonts/Geoma Thin Demo.otf'); }
 @font-face { font-family: Aqua; src: url('../fonts/Aqua.ttf'); }
-@font-face { font-family: Adequate-ExtraLight; src: url('../fonts/Adequate-ExtraLight.ttf'); }
-
-
-
 
 h1 {
   font-family: Vayentha Script;
@@ -32,7 +28,6 @@ h4 {
   padding-top: 20px;
 }
 
-
 h5 {
   font-family: Aqua;
   font-size: 13px;
@@ -48,8 +43,8 @@ p {
   text-align: justify;
   font-family: Aqua;
   font-style: normal;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 22px;
+  line-height: 35px;
   color: #ffffff;
   word-wrap: normal;
 }
@@ -107,6 +102,7 @@ ol {
   color:  #a9adad;
   line-height: 125px;
 }
+
 .container-fluid{
   padding: 0px;
 }
@@ -119,6 +115,7 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  
   .parallax2 {
       background-image: url("../img/botanical.jpg");
       height: 180px;
