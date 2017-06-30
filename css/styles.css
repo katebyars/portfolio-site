@@ -8,7 +8,7 @@
 h1 {
   font-family: Vayentha Script;
   font-size: 150px;
-  color:#ff790c;
+  color:#c6dcff;
   text-align: center;
   padding-top: 100px;
 }
@@ -46,6 +46,14 @@ p {
   font-size: 14px;
   line-height: 21px;
   color: #7a7676;
+  word-wrap: normal;
+}
+
+.imgleft {
+  display: block;
+  float: left;
+  padding-left: 20%;
+  max-height: 150px;
 }
 
 .square {
@@ -81,13 +89,44 @@ p {
   width: auto;
 }
 
-
+ol {
+  font-family: Aqua;
+  font-size: 80px;
+  color:  #a9adad;
+  line-height: 125px;
+}
 .container-fluid{
   padding: 0px;
 }
 
-.footer {
+.parallax1 {
+    background-image: url("../img/pinkwatercolor.jpg");
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.col-md-4 {
+  font-family: Aqua;
+  font-size: 17px;
+  line-height: 40px;
+  color: #7a7676;
+  text-align: left;
+  max-width: 500px;
+}
+
+.row {
   padding-left: 20%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  text-align: center;
   padding-top: 25px;
   background-color: #e2e9e9;
   height: 100px;
