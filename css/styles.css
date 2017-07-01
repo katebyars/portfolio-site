@@ -66,7 +66,7 @@ p {
 
 .row-teal{
   background-color: #459b03;
-  height: 300px;
+  height: 400px;
   width: auto;
 }
 
@@ -98,9 +98,12 @@ a {
 
 ol {
   font-family: Aqua;
-  font-size: 80px;
-  color:  #a9adad;
-  line-height: 125px;
+  font-size: 18px;
+  line-height: 42px;
+  color: #ffffff;
+  text-align: left;
+  max-width: 500px;
+  padding-top: 20px;
 }
 
 .container-fluid{
@@ -115,7 +118,7 @@ ol {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .parallax2 {
       background-image: url("../img/botanical.jpg");
       height: 180px;
