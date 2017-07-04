@@ -20,6 +20,7 @@ _Currently there are no known bugs._
 ## Support and contact details
 
 _Kate Byars | katebyars5@gmail.com | https://github.com/katebyars?tab=repositories_
+* _You may use this page to view the project: https://katebyars.github.io/portfolio-site
 
 ## Technologies Used
 
